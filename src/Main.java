@@ -1,9 +1,8 @@
 class Main {
     public static void main(String[] args) {
-        long prise = 5260;
+        long price = 5260;
         int bonus = 20;
-        long miles = prise / bonus;
-
+        long miles = price / bonus;
         System.out.println(miles);
 
     }
